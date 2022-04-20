@@ -4,8 +4,7 @@
 
 Python Keycloak
 ====================
-
-For review- see https://github.com/marcospereirampj/python-keycloak
+This is a fork of **python-keycloak** providing support for UMA permission requests.
 
 **python-keycloak** is a Python package providing access to the Keycloak API.
 
@@ -13,7 +12,7 @@ For review- see https://github.com/marcospereirampj/python-keycloak
 
 ### Via Pypi Package:
 
-``` $ pip install python-keycloak ```
+``` $ pip install git+https://github.com/Merle-Nerger/python-keycloak ```
 
 ### Manually
 
@@ -32,16 +31,11 @@ python-keycloak depends on:
 * unittest
 * [httmock](https://github.com/patrys/httmock)
 
-## Bug reports
-
-Please report bugs and feature requests at
-https://github.com/marcospereirampj/python-keycloak/issues
-
 ## Documentation
 
 The documentation for python-keycloak is available on [readthedocs](http://python-keycloak.readthedocs.io).
 
-## Contributors
+## Contributors of main package
 
 * [Agriness Team](http://www.agriness.com/pt/)
 * [Marcos Pereira](marcospereira.mpj@gmail.com)
